@@ -1,3 +1,5 @@
 spring:
   thymeleaf:
     cache: false
+    enabled: true
+    check-template-location: true
