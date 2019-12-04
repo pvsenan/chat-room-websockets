@@ -6,5 +6,5 @@ chatroom application using Springboot, Websockets and Thymeleaf
 
 `mvn spring-boot:run`
 
-#To package the application
+# To package the application
 `mvn package`
