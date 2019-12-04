@@ -150,8 +150,10 @@
      * Login
      */
     function login() {
-        // TODO: complete the login function
-    }
+        var username = $("#username").val();
+        if(username){
+            window.location.href = "/index?username="+username;
+        }    }
 
     /**
      * Enter to login.
